@@ -5,7 +5,7 @@
   "tasks": [
     {
       "type": "cargo",
-      "label": "cargo build debug",
+      "label": "cargo build",
       "command": "cargo",
       "args": [
         "build"
@@ -16,7 +16,7 @@
     },
     {
       "type": "cargo",
-      "label": "cargo build release",
+      "label": "cargo release",
       "command": "cargo",
       "args": [
         "build",
